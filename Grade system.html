@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> computing the marks and grades</title>
+</head>
+<body>
+	
+		<form>
+		<fieldset>
+			Marks:<br>
+			<input type="text" name="Marks"><br>
+			Grade:<br>
+			<input type="text" name="Grade"><br><br>
+			<input type="Submit" name="Submit">
+		</fieldset>
+	</form>
+
+
+
+	<form>
+		<fieldset>
+			<legend>
+				Persons Infrmation
+			</legend>
+			First Name:
+			<input type="text" name="First Name"><br>
+			Age:
+			<input type="text" name="Age"><br>
+			Phone Number:
+			<input type="text" name="Phone Number ">
+		</fieldset>
+	</form>
+
+
+	<form>
+		<fieldset>
+			<legend>Academic Qualification</legend>
+			Academic Achievements Degree:
+			<label for="Academic Achievements Degree">
+			</label>
+			<select id="Academic Achievements Degree" name="Academic Achievements Degree" size="5">
+			    <option value="Bachelor's" selected>Bachelor's</option>
+				<option value="B.Sc Computing">B.Sc Computing</option>
+				<option value="B.Sc Mathematics">B.Sc Mathematics</option>
+				<option value="B.Sc Information">B.Sc Information</option></select><br><br>
+
+			Course Taken:<br>
+			Skill:
+			<input type="checkbox" name="skill">
+			Programming:
+			<input type="checkbox" name="Programming">
+			Management:
+			<input type="checkbox" name="Management">
+			Design:
+		</fieldset>
+
+		<form>
+			<input type="submit" Value="Send">
+			<input type="Submit" value="Reset">
+			<input type="Submit" value="cancel"> 
+
+
+
+
+<script type="text/javascript">
+		function marksgrade()
+		 If (marks=0 TO 39){
+		 	document.Write("Grade:E");
+		 }
+		 else if(marks=40 TO 49){
+		 	document.Write("Grade:D");
+		 }
+		 else if(marks=50 To 59){
+		 	document.Write("Grade:C");
+		 }
+		 else if(marks=60 To 69){
+		 	document.Write(Grade:B);
+		 }
+		 else if(marks=70 To 100){
+		 	document.Write("Grade:"A);
+		 }
+		</script>
+
+
+
+
+</body>
+</html>
